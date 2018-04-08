@@ -49,7 +49,7 @@ public class LoginController implements Initializable{
         users.add(admin);
         users.add(guest);
 
-        type.getItems().add("admin"); //Change Selection colour
+        type.getItems().add("admin");
         type.getItems().add("guest");
     }
 
@@ -113,18 +113,18 @@ public class LoginController implements Initializable{
 
         try
         {
-          //Stage adminStage = new Stage();
-            //FXMLLoader adminLoader = new FXMLLoader();
-            AnchorPane adminroot = FXMLLoader.load(getClass().getResource("/dashboard/adminDashboard.fxml"));
-            //adminDashboardController adminController = (adminDashboardController) adminLoader.getController();
+
+    Stage stage = new Stage();
+            AnchorPane adminroot = FXMLLoader.load(getClass().getResource("/dashboard/Menus.fxml"));
+
 
             Scene adminscene = new Scene(adminroot);
 
-            mainC.s.setScene(adminscene);
-            mainC.s.setTitle("Admin Dashboard");
-            mainC.s.setResizable(false);
-            mainC.s.show();
-            //System.out.println("ol");
+            stage.setScene(adminscene);
+            stage.setTitle("Admin Dashboard");
+            stage.setResizable(false);
+            stage.show();
+
         }
         catch (IOException e)
         {
