@@ -180,6 +180,7 @@ public class IMSFXMLDocumentController implements Initializable {
       
         if (selectedPart != null && selectedPart.getAssociatedPartID() == -1) {
             Alert alert = new Alert(AlertType.CONFIRMATION);
+
             alert.setTitle("Causion!");
             alert.setHeaderText("Are you sure you want to delete productPart ID : " + selectedPart.getPartsID() + "?");
             alert.setContentText(null);

@@ -1,30 +1,18 @@
 package dashboard;
 
-import com.jfoenix.controls.JFXButton;
-import com.jfoenix.controls.JFXButton.ButtonType;
-import com.jfoenix.controls.JFXNodesList;
 import com.jfoenix.controls.JFXRippler;
-import com.jfoenix.controls.JFXSnackbar;
-import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
-import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
+
 import java.io.IOException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javafx.animation.Interpolator;
-import javafx.animation.KeyValue;
-import javafx.application.Platform;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.Tooltip;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
@@ -63,8 +51,8 @@ public class MenusController implements Initializable {
     private void switchToFrontOffice(MouseEvent event) {
         try
         {
-             frOffStage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/administrationModules/frontOffice/frontOffice.fxml"));
+            frOffStage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/administrationModules/frontOffice/RoomDB.fxml"));
             Scene scene = new Scene(root);
 
             frOffStage.setScene(scene);

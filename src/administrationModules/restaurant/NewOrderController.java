@@ -39,99 +39,39 @@ public class NewOrderController implements Initializable {
 	public HashMap<String, Integer> orderList2 = new HashMap<String, Integer>();
 	public int table;
 	public int subTotal = 0;
-
-
 	public ArrayList<ItemObject> exprimentOrderList = new ArrayList<ItemObject>();
-
-
 	ObservableList<String> dropdownList = FXCollections.observableArrayList(Items.items.keySet());
-	
-
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		
 		txtQuantity.setText("1");
-
-		
-		
-
-
-		
-
 		quantityColumn.setCellValueFactory(new PropertyValueFactory<ItemObject, String>("quantity"));
 		priceColumn.setCellValueFactory(new PropertyValueFactory<ItemObject, Integer>("price"));
 		itemColumn.setCellValueFactory(new PropertyValueFactory<ItemObject, String>("name"));
-		
-
 		cbItems.setItems(dropdownList);
-		
-
 		cbTables.setItems(hasOrders(Platform.getAllTables()));
-		
-
 		cbItems.getSelectionModel().selectFirst();
-			
 	}
 	
 
 	public void Home(ActionEvent event) throws IOException {
-		
-
 		Platform.getScene().home();
 	}
-	
-
 
 	public void makeOrder(ActionEvent event) throws IOException {
-		
-
 		String tableNumber = cbTables.getSelectionModel().getSelectedItem(); 
 		table = Integer.parseInt(tableNumber);
-		
-
-		Orders order = new Orders(table); 
-		
-
+		Orders order = new Orders(table);
 		order.addMultipleOrderItems(orderList2);
 		order.addMultipleItemBuffer(exprimentOrderList);
-		
-
 		order.addComments(txtComments.getText());
-		
-
-		order.displayOrder(); 
-		
-
-		
-
+		order.displayOrder();
 		exprimentOrderList.removeAll(exprimentOrderList);
-		
-
-		Platform.putOrder(order, order.getOrderID()); 
-		
-
-		Platform.getTable(table).orderID = order.getOrderID(); 
-		
-
+		Platform.putOrder(order, order.getOrderID());
+		Platform.getTable(table).orderID = order.getOrderID();
 		table = 0;
-		
-
 		Platform.getScene().home();
-		
-
-
-
-
-
-
-
-
-
-
-
-
-		
 	}
 	
 
@@ -141,36 +81,21 @@ public class NewOrderController implements Initializable {
 	
 
 	public void addItem(ActionEvent event) {
-		
-
 		String text = cbItems.getSelectionModel().getSelectedItem();
 		int quantity2 = Integer.parseInt(txtQuantity.getText());
-				
-		
 		if (orderList2.containsKey(text)) {
 			orderList2.put(text, orderList2.get(text) + quantity2);
 		}
-		
 		else {
 			orderList2.put(text, quantity2);
 		}
-		
 
 		ItemObject item = new ItemObject(text, Items.getItemPrice(text), quantity2+"");
 
-
 		exprimentOrderList.add(item);
-
-
 		subTotal += Items.getItemPrice(text) * (quantity2);
-		
-
 		total.setText("" + subTotal + ".00");
-	
-
 		orderTable.getItems().add(item);
-		
-
 		if (!orderTable.getItems().isEmpty()) {
 			cbTables.setDisable(false);
 		}	

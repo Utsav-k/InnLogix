@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="713.0" prefWidth="1219.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.frontOffice.RoomsController">
+   <children>
+      <Label layoutX="19.0" layoutY="17.0" prefHeight="29.0" prefWidth="207.0" style="-fx-font-size: 20; -fx-font-weight: bold; -fx-text-fill: black;" text="Room Database" />
+      <Separator layoutX="3.0" layoutY="55.0" prefHeight="4.0" prefWidth="1213.0" />
+      <TableView fx:id="roomTable" layoutY="71.0" prefHeight="555.0" prefWidth="1219.0" style="-fx-text-fill:red" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="roomNumCol" prefWidth="100.0" text="Room Number" />
+          <TableColumn fx:id="roomTypeCol" minWidth="114.0" prefWidth="114.0" text="Type" />
+            <TableColumn fx:id="roomStatusCol" minWidth="0.0" prefWidth="133.0" text="Status" />
+            <TableColumn fx:id="roomGuestCol" prefWidth="250.0" text="Guest Name" />
+            <TableColumn fx:id="roomAttendantCol" minWidth="0.0" prefWidth="235.0" text="Attendant" />
+            <TableColumn fx:id="roomRequestCol" minWidth="0.0" prefWidth="386.0" text="Requests" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="AddGButton" layoutX="740.0" layoutY="660.0" mnemonicParsing="false" onAction="#addGuest" prefHeight="25.0" prefWidth="136.0" text="Add Guest" textFill="#d7c6c6" />
+      <!--<AnchorPane layoutY="626.0" prefHeight="87.0" prefWidth="1219.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">-->
+         <!--<children>-->
+            <!--&lt;!&ndash;<JFXButton fx:id="refresh" buttonType="RAISED" layoutX="1077.0" layoutY="17.0" onAction="#refreshTable" prefHeight="39.0" prefWidth="114.0" style="-fx-background-color: #00C853;" text="REFRESH">&ndash;&gt;-->
+               <!--&lt;!&ndash;<graphic>&ndash;&gt;-->
+                  <!--&lt;!&ndash;<FontAwesomeIconView glyphName="REFRESH" size="20" />&ndash;&gt;-->
+               <!--&lt;!&ndash;</graphic>&ndash;&gt;-->
+            <!--&lt;!&ndash;</JFXButton>&ndash;&gt;-->
+            <!--&lt;!&ndash;<JFXButton fx:id="but_movie" buttonType="RAISED" layoutX="852.0" layoutY="17.0" onAction="#AddMovie" prefHeight="39.0" prefWidth="132.0" style="-fx-background-color: #2979FF;" text="Add Movie">&ndash;&gt;-->
+               <!--&lt;!&ndash;<graphic>&ndash;&gt;-->
+                  <!--&lt;!&ndash;<FontAwesomeIconView glyphName="ARROW_DOWN" size="20" />&ndash;&gt;-->
+               <!--&lt;!&ndash;</graphic>&ndash;&gt;-->
+            <!--&lt;!&ndash;</JFXButton>&ndash;&gt;-->
+            <!--&lt;!&ndash;<JFXButton fx:id="but_remove" buttonType="RAISED" layoutX="569.0" layoutY="17.0" onAction="#removeMovie" prefHeight="39.0" prefWidth="132.0" style="-fx-background-color: f44336;" text="Remove Movie">&ndash;&gt;-->
+               <!--&lt;!&ndash;<graphic>&ndash;&gt;-->
+                  <!--&lt;!&ndash;<FontAwesomeIconView glyphName="CLOSE" size="20" />&ndash;&gt;-->
+               <!--&lt;!&ndash;</graphic>&ndash;&gt;-->
+            <!--&lt;!&ndash;</JFXButton>&ndash;&gt;-->
+            <!--&lt;!&ndash;<JFXButton fx:id="mov" buttonType="RAISED" layoutX="303.0" layoutY="17.0" onAction="#movdetails" prefHeight="39.0" prefWidth="132.0" style="-fx-background-color: #D500F9;" text="Movie Details">&ndash;&gt;-->
+               <!--&lt;!&ndash;<graphic>&ndash;&gt;-->
+                  <!--&lt;!&ndash;<FontAwesomeIconView glyphName="EYE" size="20" />&ndash;&gt;-->
+               <!--&lt;!&ndash;</graphic>&ndash;&gt;-->
+            <!--&lt;!&ndash;</JFXButton>&ndash;&gt;-->
+         <!--</children></AnchorPane>-->
+   </children>
+</AnchorPane>

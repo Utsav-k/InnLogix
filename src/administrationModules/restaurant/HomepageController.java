@@ -7,6 +7,7 @@ import java.util.Collection;
 import java.util.Random;
 import java.util.ResourceBundle;
 
+import com.jfoenix.controls.JFXButton;
 import dashboard.MenusController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -29,7 +30,7 @@ public class HomepageController implements Initializable {
 	@FXML private Label lblPlatformTotal;
 	
 
-	@FXML private Button btn1 = new Button("1");
+	@FXML private JFXButton btn1 = new JFXButton("1");
 	@FXML private Button btn2 = new Button("2");
 	@FXML private Button btn3 = new Button("3");
 	@FXML private Button btn4 = new Button("4");
