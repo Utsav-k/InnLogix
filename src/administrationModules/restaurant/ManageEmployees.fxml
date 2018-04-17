@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextArea?>
@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.restaurant.ManageEmployeesController">
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.restaurant.ManageEmployeesController">
    <children>
       <TableView fx:id="tvEmployeeTable" layoutX="392.0" layoutY="50.0" prefHeight="373.0" prefWidth="462.0">
         <columns>
@@ -24,12 +24,12 @@
             <Font name="Inconsolata" size="36.0" />
          </font>
       </Text>
-      <Button layoutX="478.0" layoutY="438.0" mnemonicParsing="false" onAction="#goToNewEmployeePage" text="Add Employee " />
-      <Button layoutX="38.0" layoutY="438.0" mnemonicParsing="false" onAction="#Home" text="Home " />
-      <Button layoutX="599.0" layoutY="438.0" mnemonicParsing="false" onAction="#deleteEmployee" text="Delete Employee" />
-      <Button layoutX="393.0" layoutY="438.0" mnemonicParsing="false" onAction="#showLog" text="View Log" />
+      <JFXButton layoutX="478.0" layoutY="438.0" mnemonicParsing="false" onAction="#goToNewEmployeePage" style="-fx-background-color: #5C97BF;" text="Add Employee " />
+      <JFXButton layoutX="38.0" layoutY="438.0" mnemonicParsing="false" onAction="#Home" style="-fx-background-color: #5C97BF;" text="Home " />
+      <JFXButton layoutX="599.0" layoutY="438.0" mnemonicParsing="false" onAction="#deleteEmployee" style="-fx-background-color: #5C97BF;" text="Delete Employee" />
+      <JFXButton layoutX="393.0" layoutY="438.0" mnemonicParsing="false" onAction="#showLog" style="-fx-background-color: #5C97BF;" text="View Log" />
       <TextArea fx:id="log" editable="false" layoutX="38.0" layoutY="267.0" prefHeight="157.0" prefWidth="310.0" />
-      <Text layoutX="41.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee Log" wrappingWidth="110.00000014901161">
+      <Text layoutX="41.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee Log" wrappingWidth="161.0000001490116">
          <font>
             <Font name="Inconsolata" size="18.0" />
          </font>

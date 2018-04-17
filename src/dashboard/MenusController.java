@@ -29,7 +29,7 @@ public class MenusController implements Initializable {
 
     @FXML
     private HBox boxMenus;
-    public static Stage resStage, invStage, frOffStage,hkpStage ;
+    public static Stage resStage, invStage, frOffStage,hkpStage, analStage ;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -95,6 +95,21 @@ public class MenusController implements Initializable {
 
             hkpStage.setScene(scene);
             hkpStage.show();
+        } catch (IOException ex) {
+            Logger.getLogger(MenusController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    @FXML
+    private void switchToAnal(MouseEvent event) {
+        try
+        {
+            analStage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/administrationModules/accounts/front.fxml"));
+            Scene scene = new Scene(root);
+
+            analStage.setScene(scene);
+            analStage.show();
         } catch (IOException ex) {
             Logger.getLogger(MenusController.class.getName()).log(Level.SEVERE, null, ex);
         }

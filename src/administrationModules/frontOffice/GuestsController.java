@@ -1,6 +1,7 @@
 
 package administrationModules.frontOffice;
 
+import administrationModules.Housekeeping.housekeepingController;
 import com.jfoenix.controls.JFXButton;
 import java.io.IOException;
 import java.net.URL;
@@ -104,7 +105,7 @@ public class GuestsController implements Initializable {
         Guest guest = guestTable.getSelectionModel().getSelectedItem();
 
         guestList.remove(guest);
-        guestTable.getItems().setAll(guestList());
+        guestTable.getItems().setAll(guestList);
     }
 
     //    @FXML
@@ -122,9 +123,8 @@ public class GuestsController implements Initializable {
 
     public ObservableList<Guest> guestList() {
 
-        //guestList.add(new Guest("Mr.A", "221B, Baker Street", "London", "9999", "1", 20-6-18, 22-6-18, "xyz@gmail.com"));
-       // guestList.add(new Room(2, "duplex", "ready", "Mr. B", "Bob", "maintenance"));
-        //roomList.add(new Room(3, "single", "not ready", "Mr. C", "Carl", "demand for extra bed"));
+        guestList.add(new Guest("Mr.A","6.b st", "Delhi", "995562", "1", "12-6-18", "20-6-18", "xyz@gmail.com" ));
+        guestList.add(new Guest("Mr.B","7.b st", "Kolkata", "656221", "2", "15-6-18", "25-6-18", "xyz@gmail.com" ));
         return guestList;
     }
 

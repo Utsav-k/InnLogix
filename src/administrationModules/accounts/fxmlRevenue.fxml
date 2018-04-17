@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="798.0" style="-fx-background-color: #8D8DDA;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.accounts.RevenueController">
+   <children>
+      <AnchorPane layoutX="177.0" layoutY="112.0" prefHeight="488.0" prefWidth="201.0" style="-fx-background-color: #242425;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="597.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton layoutY="398.0" mnemonicParsing="false" onAction="#handleActionButton" prefHeight="45.0" prefWidth="201.0" text="Generate" textFill="#27e7f8" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="398.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutY="443.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="45.0" prefWidth="201.0" text="Back" textFill="#28c6ff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="443.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="202.0" layoutY="100.0" prefHeight="457.0" prefWidth="482.0" style="-fx-background-color: #5FB5E7;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="202.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <PieChart fx:id="pieChart" layoutX="46.0" prefHeight="400.0" prefWidth="423.0" title="Percentage Revenue" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
