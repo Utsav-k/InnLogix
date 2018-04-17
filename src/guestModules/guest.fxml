@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestModules.GuestController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c1eaf2;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestModules.GuestController">
    <children>
-      <Label layoutX="272.0" layoutY="192.0" prefHeight="38.0" prefWidth="114.0" text="Guest Dashboard" />
+      <Label alignment="CENTER" layoutX="160.0" layoutY="32.0" text="Dear Guest, Welcome to InnLogix" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Microsoft Sans Serif" size="20.0" />
+         </font>
+         <effect>
+            <Glow level="0.24" />
+         </effect>
+      </Label>
+      <JFXButton fx:id="requestButton" buttonType="RAISED" defaultButton="true" layoutX="68.0" layoutY="139.0" mnemonicParsing="false" onAction="#requestsButtonMethod" prefHeight="129.0" prefWidth="129.0" ripplerFill="#d3b6b6" style="-fx-background-color: #a47272;" text="Requests to the Front Office" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Microsoft Sans Serif" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="accountsButton" buttonType="RAISED" layoutX="236.0" layoutY="136.0" mnemonicParsing="false" onAction="#checkAccountsButtonMethod" prefHeight="129.0" prefWidth="129.0" ripplerFill="#d3b6b6" style="-fx-background-color: #a47272;" text="Check your Transactions" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Microsoft Sans Serif" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="exitButton" buttonType="RAISED" layoutX="419.0" layoutY="136.0" mnemonicParsing="false" onAction="#exitButtonMethod" prefHeight="129.0" prefWidth="129.0" ripplerFill="#e4c6c6" style="-fx-background-color: #a47254;" text="Back to Login Page" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Microsoft Sans Serif" size="18.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>

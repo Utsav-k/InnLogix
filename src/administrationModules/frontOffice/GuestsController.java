@@ -104,9 +104,7 @@ public class GuestsController implements Initializable {
         Guest guest = guestTable.getSelectionModel().getSelectedItem();
 
         guestList.remove(guest);
-
-
-
+        guestTable.getItems().setAll(guestList());
     }
 
     //    @FXML

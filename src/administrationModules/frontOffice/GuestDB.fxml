@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane id="AnchorPane" prefHeight="713.0" prefWidth="1219.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.frontOffice.GuestsController">
     <children>
@@ -22,6 +24,11 @@
                 <TableColumn fx:id="gEnd" minWidth="0.0" prefWidth="386.0" text="End Date" />
             </columns>
         </TableView>
+      <JFXButton fx:id="removeGuest" buttonType="RAISED" layoutX="575.0" layoutY="635.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="122.0" ripplerFill="#ebd8d8" text="Remove Guest" textAlignment="CENTER" textFill="#e4cfcf" onAction="#removeGuest">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
         <!--<JFXButton fx:id="AddGButton" layoutX="740.0" layoutY="660.0" mnemonicParsing="false" onAction="#addGuest" prefHeight="25.0" prefWidth="136.0" text="Add Guest" textFill="#d7c6c6" />-->
         <!--<AnchorPane layoutY="626.0" prefHeight="87.0" prefWidth="1219.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">-->
         <!--<children>-->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="445.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.Housekeeping.maintainanceController">
+   <children>
+      <TableView fx:id="tableViewMain" layoutX="14.0" layoutY="42.0" prefHeight="285.0" prefWidth="439.0" AnchorPane.bottomAnchor="160.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="roomNo" prefWidth="99.0" text="Room Number" />
+          <TableColumn fx:id="soap" prefWidth="109.0" text="Soap" />
+            <TableColumn fx:id="waterBottle" prefWidth="112.0" text="Water Bottle" />
+            <TableColumn fx:id="towel" prefWidth="118.0" text="Towel" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="addButton" layoutX="341.0" layoutY="325.0" mnemonicParsing="false" onAction="#addButtonMethod" text="Add New">
+         <font>
+            <Font name="Microsoft Sans Serif" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="roomNoLab" layoutX="14.0" layoutY="307.0" text="Room Number">
+         <font>
+            <Font name="Microsoft Sans Serif" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="roomNoText" layoutX="14.0" layoutY="325.0" />
+      <Label fx:id="soapLab" layoutX="14.0" layoutY="373.0" text="Soap">
+         <font>
+            <Font name="Microsoft Sans Serif" size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="soapText" layoutX="14.0" layoutY="394.0" />
+      <Label fx:id="waterLab" layoutX="192.0" layoutY="307.0" text="Water Bottle">
+         <font>
+            <Font name="Microsoft Sans Serif" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="waterText" layoutX="191.0" layoutY="325.0" />
+      <Label fx:id="towelLab" layoutX="192.0" layoutY="371.0" text="Towel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="towelText" layoutX="191.0" layoutY="394.0" />
+      <JFXButton fx:id="backButton" layoutX="354.0" layoutY="381.0" mnemonicParsing="false" onAction="#backButtonMethod" text="Back">
+         <font>
+            <Font name="Microsoft Sans Serif" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

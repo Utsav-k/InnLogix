@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="HKanchor" prefHeight="500" prefWidth="800" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.Housekeeping.housekeepingController">
+   <children>
+      <SplitPane fx:id="splitPane" dividerPositions="0.2690815006468305" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane fx:id="anchorPaneLeft" minHeight="0.0" minWidth="0.0" prefHeight="445.0" prefWidth="205.0">
+               <children>
+                  <Label fx:id="roomInfoLabel" layoutY="50.0" prefHeight="34.0" prefWidth="174.0" text="            Room Information" AnchorPane.bottomAnchor="367.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="15.0" />
+                     </font>
+                  </Label>
+                  <JFXButton fx:id="backToDashboard" layoutY="421.0" mnemonicParsing="false" onAction="#backToDashboarduttonMethod" prefHeight="48.0" prefWidth="212.0" text="BACK TO DASHBOARD" AnchorPane.bottomAnchor="29.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="421.0">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <Label fx:id="housekeepingLabel" layoutY="16.0" prefHeight="106.0" prefWidth="212.0" text="         HOUSEKEEPING" AnchorPane.bottomAnchor="392.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="17.0" />
+                     </font>
+                  </Label>
+                  <JFXButton fx:id="maintainance" layoutY="367.0" mnemonicParsing="false" onAction="#maintainanceButtonMethod" prefHeight="48.0" prefWidth="212.0" text="MAINTAINANCE" AnchorPane.bottomAnchor="83.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="367.0">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <Label fx:id="roomNoLabel" layoutX="14.0" layoutY="120.0" prefHeight="40.0" prefWidth="176.0" text="ROOM NUMBER " />
+                  <JFXTextField fx:id="roomNoText" layoutX="14.0" layoutY="160.0" prefHeight="32.0" prefWidth="176.0" />
+                 <Label fx:id="attendantLabel" layoutX="14.0" layoutY="190.0" prefHeight="40.0" prefWidth="176.0" text="ATTENDANT" />
+                  <JFXTextField fx:id="attendantText" layoutX="14.0" layoutY="230.0" prefHeight="32.0" prefWidth="176.0" />
+                  <JFXButton fx:id="assignAttendant" layoutX="14.0" layoutY="281.0" mnemonicParsing="false" onAction="#assignAttendantButtonMethod" prefHeight="32.0" prefWidth="149.0" text="ASSIGN ATTENDANT" />
+                  <Label fx:id="validation" layoutX="14.0" layoutY="330.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="anchorPaneRight" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="tableView" layoutX="-1.0" prefHeight="500.0" prefWidth="590.0" AnchorPane.bottomAnchor="-49.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-28.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="roomNo" prefWidth="72.0" text="Room No." />
+                      <TableColumn fx:id="roomType" prefWidth="81.0" text="Room Type" />
+                        <TableColumn fx:id="status" prefWidth="75.0" text="Status" />
+                        <TableColumn fx:id="availability" prefWidth="83.0" text="Availability" />
+                        <TableColumn fx:id="attendant" prefWidth="87.0" text="Attendant" />
+                        <TableColumn fx:id="guest" prefWidth="93.0" text="Guest" />
+                        <TableColumn fx:id="request" prefWidth="101.0" text="Request" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

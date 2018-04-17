@@ -26,22 +26,15 @@ public class MenusController implements Initializable {
     private AnchorPane rootPane;
     @FXML
     private StackPane fabsContainer;
-    @FXML
-    private AnchorPane paneUsers;
-    @FXML
-    private AnchorPane paneTickets;
-    @FXML
-    private AnchorPane paneBuses;
-    @FXML
-    private AnchorPane paneDrivers;
+
     @FXML
     private HBox boxMenus;
-    public static Stage resStage, invStage, frOffStage;
+    public static Stage resStage, invStage, frOffStage,hkpStage ;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
 
-        setUpRipples();
+        //setUpRipples();
 
 
     }
@@ -92,14 +85,23 @@ public class MenusController implements Initializable {
     }
 
 
-    private void setUpRipples() {
-        JFXRippler ripplerUser = new JFXRippler(paneUsers, JFXRippler.RipplerMask.RECT, JFXRippler.RipplerPos.FRONT);
-        JFXRippler ripplerDriver = new JFXRippler(paneDrivers, JFXRippler.RipplerMask.RECT, JFXRippler.RipplerPos.FRONT);
-        JFXRippler ripplerBuses = new JFXRippler(paneBuses, JFXRippler.RipplerMask.RECT, JFXRippler.RipplerPos.FRONT);
-        JFXRippler ripplerTickets = new JFXRippler(paneTickets, JFXRippler.RipplerMask.RECT, JFXRippler.RipplerPos.FRONT);
+    @FXML
+    private void switchToHKp(MouseEvent event) {
+        try
+        {
+            hkpStage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/administrationModules/Housekeeping/housekeeping.fxml"));
+            Scene scene = new Scene(root);
 
-        boxMenus.getChildren().addAll(ripplerUser, ripplerDriver, ripplerBuses, ripplerTickets);
+            hkpStage.setScene(scene);
+            hkpStage.show();
+        } catch (IOException ex) {
+            Logger.getLogger(MenusController.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
+
+
+
 
     public Stage getStage()
     {

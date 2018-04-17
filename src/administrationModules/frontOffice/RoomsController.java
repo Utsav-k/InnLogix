@@ -5,6 +5,8 @@
  */
 package administrationModules.frontOffice;
 
+import administrationModules.Housekeeping.Record;
+import administrationModules.Housekeeping.housekeepingController;
 import com.jfoenix.controls.JFXButton;
 import java.io.IOException;
 import java.net.URL;
@@ -35,26 +37,30 @@ import javafx.scene.control.Alert.AlertType;
 
 public class RoomsController implements Initializable {
     //Room room = new Room();
-    ObservableList<Room> roomList = FXCollections.observableArrayList();
-
+    ObservableList<Record> roomList = FXCollections.observableArrayList();
+    //housekeepingController hcObj = new housekeepingController();
 
 @FXML
 private JFXButton AddGButton;
+    @FXML
+    private JFXButton refreshTable;
+    @FXML
+    private JFXButton removeRoom;
 
     @FXML
-    private TableView<Room> roomTable;
+    private TableView<Record> roomTable;
     @FXML
-    private TableColumn<Room, Integer> roomNumCol;
+    private TableColumn<Record, String> roomNumCol;
     @FXML
-    private TableColumn<Room, String> roomTypeCol;
+    private TableColumn<Record, String> roomTypeCol;
     @FXML
-    private TableColumn<Room, String> roomStatusCol;
+    private TableColumn<Record, String> roomStatusCol;
     @FXML
-    private TableColumn<Room, String> roomGuestCol;
+    private TableColumn<Record, String> roomGuestCol;
     @FXML
-    private TableColumn<Room, String> roomAttendantCol;
+    private TableColumn<Record, String> roomAttendantCol;
     @FXML
-    private TableColumn<Room, String> roomRequestCol;
+    private TableColumn<Record, String> roomRequestCol;
 //    @FXML
 //    private JFXButton refresh;
 //    @FXML
@@ -66,13 +72,13 @@ private JFXButton AddGButton;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        roomTable.getItems().setAll(roomList());
-        roomNumCol.setCellValueFactory(new PropertyValueFactory<>("roomNum"));
-        roomTypeCol.setCellValueFactory(new PropertyValueFactory<>("roomType"));
-        roomStatusCol.setCellValueFactory(new PropertyValueFactory<>("roomStatus"));
-        roomGuestCol.setCellValueFactory(new PropertyValueFactory<>("roomGuest"));
-        roomAttendantCol.setCellValueFactory(new PropertyValueFactory<>("roomAttendant"));
-        roomRequestCol.setCellValueFactory(new PropertyValueFactory<>("roomRequest"));
+        roomTable.getItems().setAll(housekeepingController.getRecord());
+        roomNumCol.setCellValueFactory(new PropertyValueFactory<>("RoomNo"));
+        roomTypeCol.setCellValueFactory(new PropertyValueFactory<>("RoomType"));
+        roomStatusCol.setCellValueFactory(new PropertyValueFactory<>("Status"));
+        roomGuestCol.setCellValueFactory(new PropertyValueFactory<>("Guest"));
+        roomAttendantCol.setCellValueFactory(new PropertyValueFactory<>("Attendant"));
+        roomRequestCol.setCellValueFactory(new PropertyValueFactory<>("Request"));
 
         System.out.println(roomTable.getSelectionModel().getSelectedIndex());
 
@@ -88,8 +94,9 @@ private JFXButton AddGButton;
 
     private void refresh() {
         roomTable.getItems().clear();
-        roomList.removeAll(roomList);
-        roomTable.getItems().setAll(roomList());
+        housekeepingController.getRecord().removeAll(housekeepingController.getRecord());
+        roomTable.getItems().setAll(housekeepingController.getRecord());
+
     }
 
     @FXML
@@ -109,8 +116,19 @@ private JFXButton AddGButton;
     }
 
     @FXML
+    private void openGDB(ActionEvent event) throws IOException {
+        Parent parent = FXMLLoader.load(getClass().getResource("/administrationModules/frontOffice/GuestDB.fxml"));
+        Stage stage = new Stage(StageStyle.DECORATED);
+        stage.setTitle("Guest Database");
+        stage.setScene(new Scene(parent));
+//        stage.initOwner(((Stage) but_theatre.getScene().getWindow()));
+//        stage.initModality(Modality.WINDOW_MODAL);
+        stage.show();
+    }
+
+    @FXML
     private void removeRoom(ActionEvent event) {
-        Room room = roomTable.getSelectionModel().getSelectedItem();
+        Record room = roomTable.getSelectionModel().getSelectedItem();
         Alert alert = new Alert(AlertType.CONFIRMATION);
         alert.setTitle("Causion!");
         alert.setHeaderText("Are you sure you want to delete ?");
@@ -120,7 +138,7 @@ private JFXButton AddGButton;
         if (result.get() == ButtonType.OK) {
             // Upon conformation remove the selected part from the table
             roomTable.getItems().remove(room);
-            roomList.remove(room);
+            housekeepingController.getRecord().remove(room);
 
         }
 
@@ -139,12 +157,12 @@ private JFXButton AddGButton;
 //        }
 //    }
 
-    public ObservableList<Room> roomList() {
-
-        roomList.add(new Room(1, "single", "occupied", "Mr. A", "Adam", "meal order"));
-        roomList.add(new Room(2, "duplex", "ready", "Mr. B", "Bob", "maintenance"));
-        roomList.add(new Room(3, "single", "not ready", "Mr. C", "Carl", "demand for extra bed"));
-        return roomList;
-    }
+//    public ObservableList<Record> roomList() {
+//
+//        roomList.add(new Record("1", "single", "occupied", "Mr. A", "Adam", "meal order"));
+//        roomList.add(new Record("2", "duplex", "ready", "Mr. B", "Bob", "maintenance"));
+//        roomList.add(new Record("3", "single", "not ready", "Mr. C", "Carl", "demand for extra bed"));
+//        return roomList;
+//    }
 
 }

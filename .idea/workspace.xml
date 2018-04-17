@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb4cc17c-376e-4563-99f3-fbb887a47533" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuest.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/registershow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/frontOffice.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/frontOfficeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/inventory/IMSFXMLDocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/inventory/IMSFXMLDocumentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/Homepage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/Homepage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/HomepageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/HomepageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/NewOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/NewOrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/dashboard/MenusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/dashboard/MenusController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/frontOffice.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/frontOfficeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/Homepage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/Homepage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/HomepageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/HomepageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/NewOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/NewOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dashboard/Menus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard/Menus.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dashboard/MenusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard/MenusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guestModules/GuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/GuestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guestModules/guest.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/guest.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +28,7 @@
             <file leaf-file-name="IMSFXMLDocumentController.java" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="255">
+                  <state relative-caret-position="2720">
                     <caret line="186" selection-start-line="186" selection-end-line="186" />
                   </state>
                 </provider>
@@ -46,58 +37,36 @@
             <file leaf-file-name="Guest.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Guest.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="252">
-                    <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+                  <state relative-caret-position="331">
+                    <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
                     <folding>
                       <element signature="imports" expanded="true" />
-                      <element signature="e#1319#1320#0" expanded="true" />
-                      <element signature="e#1357#1358#0" expanded="true" />
-                      <element signature="e#1412#1413#0" expanded="true" />
-                      <element signature="e#1444#1445#0" expanded="true" />
-                      <element signature="e#1494#1495#0" expanded="true" />
-                      <element signature="e#1539#1540#0" expanded="true" />
-                      <element signature="e#1575#1576#0" expanded="true" />
-                      <element signature="e#1613#1614#0" expanded="true" />
-                      <element signature="e#1668#1669#0" expanded="true" />
-                      <element signature="e#1700#1701#0" expanded="true" />
-                      <element signature="e#1750#1751#0" expanded="true" />
-                      <element signature="e#1795#1796#0" expanded="true" />
-                      <element signature="e#1831#1832#0" expanded="true" />
-                      <element signature="e#1869#1870#0" expanded="true" />
-                      <element signature="e#1924#1925#0" expanded="true" />
-                      <element signature="e#1956#1957#0" expanded="true" />
-                      <element signature="e#2006#2007#0" expanded="true" />
-                      <element signature="e#2051#2052#0" expanded="true" />
-                      <element signature="e#2090#2091#0" expanded="true" />
-                      <element signature="e#2131#2132#0" expanded="true" />
-                      <element signature="e#2189#2190#0" expanded="true" />
-                      <element signature="e#2224#2225#0" expanded="true" />
-                      <element signature="e#2280#2281#0" expanded="true" />
-                      <element signature="e#2331#2332#0" expanded="true" />
-                      <element signature="e#2367#2368#0" expanded="true" />
-                      <element signature="e#2405#2406#0" expanded="true" />
-                      <element signature="e#2460#2461#0" expanded="true" />
-                      <element signature="e#2492#2493#0" expanded="true" />
-                      <element signature="e#2542#2543#0" expanded="true" />
-                      <element signature="e#2587#2588#0" expanded="true" />
-                      <element signature="e#2628#2629#0" expanded="true" />
-                      <element signature="e#2671#2672#0" expanded="true" />
-                      <element signature="e#2731#2732#0" expanded="true" />
-                      <element signature="e#2768#2769#0" expanded="true" />
-                      <element signature="e#2828#2829#0" expanded="true" />
-                      <element signature="e#2883#2884#0" expanded="true" />
-                      <element signature="e#2922#2923#0" expanded="true" />
-                      <element signature="e#2963#2964#0" expanded="true" />
-                      <element signature="e#3021#3022#0" expanded="true" />
-                      <element signature="e#3056#3057#0" expanded="true" />
-                      <element signature="e#3112#3113#0" expanded="true" />
-                      <element signature="e#3163#3164#0" expanded="true" />
-                      <element signature="e#3200#3201#0" expanded="true" />
-                      <element signature="e#3239#3240#0" expanded="true" />
-                      <element signature="e#3295#3296#0" expanded="true" />
-                      <element signature="e#3328#3329#0" expanded="true" />
+                      <element signature="e#3347#3348#0" expanded="true" />
                       <element signature="e#3380#3381#0" expanded="true" />
-                      <element signature="e#3427#3428#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="Record.java" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/Record.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="833">
+                    <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+                    <folding>
+                      <element signature="e#1760#1761#0" expanded="true" />
+                      <element signature="e#1794#1795#0" expanded="true" />
+                      <element signature="e#1873#1874#0" expanded="true" />
+                      <element signature="e#1915#1916#0" expanded="true" />
+                      <element signature="e#1952#1953#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -113,8 +82,8 @@
       <file leaf-file-name="GuestsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="126" column="10" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="10" />
+            <state relative-caret-position="1232">
+              <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,29 +91,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddProductInterfaceController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddProductInterfaceController.java">
+      <file leaf-file-name="RoomDB.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4369">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="28" column="236" selection-start-line="28" selection-start-column="236" selection-end-line="28" selection-end-column="236" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddProductPartInterfaceController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddProductPartInterfaceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="114" column="66" selection-start-line="114" selection-start-column="66" selection-end-line="114" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterGuestController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegisterGuestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1221">
-              <caret line="122" column="28" lean-forward="true" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+            <state relative-caret-position="-757">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,57 +127,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterGuest.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuest.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="-363" />
+      <file leaf-file-name="housekeepingController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeepingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="88" column="104" selection-start-line="88" selection-start-column="104" selection-end-line="88" selection-end-column="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1114">
+              <caret line="74" column="71" selection-start-line="74" selection-start-column="71" selection-end-line="74" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maintainanceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/maintainanceController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-774">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requestsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/guestModules/requestsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuestDB.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="255" selection-start-line="26" selection-start-column="255" selection-end-line="26" selection-end-column="255" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="requestsPage.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/guestModules/requestsPage.fxml">
+          <provider editor-type-id="text-editor" />
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file leaf-file-name="ManageOrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2567">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewEmployeeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployeeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageEmployeesController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployeesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="942">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ModifyOrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Orders.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Orders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -217,7 +197,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>platform</find>
       <find>twilio</find>
       <find>opencsv</find>
       <find>/appli</find>
@@ -234,7 +213,7 @@
       <find>transport</find>
       <find>transpo</find>
       <find>primary</find>
-      <find>(/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/|[ \t]*//.*)</find>
+      <find />
       <find>JF</find>
       <find>getSc</find>
       <find>orderList2</find>
@@ -247,6 +226,7 @@
       <find>end</find>
       <find>.add()</find>
       <find>exprimentOrderList</find>
+      <find>roomL</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -264,19 +244,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Main.java" />
-        <option value="$PROJECT_DIR$/src/dashboard/adminDashboard.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageMenuController.java" />
-        <option value="$PROJECT_DIR$/src/dashboard/adminDashboardController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/SceneController.java" />
         <option value="$PROJECT_DIR$/src/dashboard/Tickets.fxml" />
         <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrderController.java" />
         <option value="$PROJECT_DIR$/src/login/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/mainC.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBoxController.java" />
         <option value="$PROJECT_DIR$/src/login/login.fxml" />
-        <option value="$PROJECT_DIR$/src/guestModules/guest.fxml" />
-        <option value="$PROJECT_DIR$/src/dashboard/Menus.fxml" />
         <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Updates.fxml" />
         <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewOrder.fxml" />
         <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewMenuItem.fxml" />
@@ -304,23 +277,30 @@
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/models/User.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/MoviesController.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/Movies.fxml" />
-        <option value="$PROJECT_DIR$/src/dashboard/MenusController.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/submenu.css" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/Guest.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuest.fxml" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java" />
+        <option value="$PROJECT_DIR$/src/dashboard/Menus.fxml" />
+        <option value="$PROJECT_DIR$/src/dashboard/MenusController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/Housekeeping/RoomInventory.java" />
+        <option value="$PROJECT_DIR$/src/guestModules/guest.fxml" />
+        <option value="$PROJECT_DIR$/src/guestModules/requestsPage.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/Housekeeping/Record.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml" />
+        <option value="$PROJECT_DIR$/src/guestModules/requestsController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeepingController.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1352" />
+    <option name="y" value="-10" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -330,6 +310,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,13 +340,8 @@
               <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
               <item name="InnLogix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InnLogix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="administrationModules" type="462c0819:PsiDirectoryNode" />
+              <item name="Housekeeping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +353,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,21 +493,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-1374" y="-1" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.22734499" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.15421304" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.06359301" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47376788" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20717423" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1522694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -544,32 +518,8 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20717423" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.22734499" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -587,113 +537,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="126" column="10" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Guest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-            <element signature="e#1575#1576#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1956#1957#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-            <element signature="e#2367#2368#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2587#2588#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
-            <element signature="e#2731#2732#0" expanded="true" />
-            <element signature="e#2768#2769#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-            <element signature="e#2883#2884#0" expanded="true" />
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
-            <element signature="e#3056#3057#0" expanded="true" />
-            <element signature="e#3112#3113#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3200#3201#0" expanded="true" />
-            <element signature="e#3239#3240#0" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3380#3381#0" expanded="true" />
-            <element signature="e#3427#3428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Employees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -737,39 +580,10 @@
     <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/models/Admin.java" />
     <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/models/User.java" />
     <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/AddMovieController.java" />
-    <entry file="file://$PROJECT_DIR$/src/dashboard/MenusController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="2720">
           <caret line="186" selection-start-line="186" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,10 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-          <folding>
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,133 +610,224 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddProductInterfaceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4369">
+        <state relative-caret-position="119">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddProductPartInterfaceController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="1768">
           <caret line="114" column="66" selection-start-line="114" selection-start-column="66" selection-end-line="114" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Orders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2567">
+        <state relative-caret-position="85">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
+        <state relative-caret-position="85">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployeesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="942">
+        <state relative-caret-position="1020">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="2482">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java">
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Guest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="126" column="10" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="10" />
+        <state relative-caret-position="331">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3347#3348#0" expanded="true" />
+            <element signature="e#3380#3381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533" />
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dashboard/Menus.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="64" column="98" selection-start-line="64" selection-start-column="98" selection-end-line="64" selection-end-column="98" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeepingModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuest.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-363" />
+    <entry file="file://$PROJECT_DIR$/src/dashboard/MenusController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestModules/accountsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-603">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestModules/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/RoomInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestModules/guest.fxml">
+      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Guest.java">
+    <entry file="file://$PROJECT_DIR$/src/guestModules/requestsPage.fxml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="26" column="255" selection-start-line="26" selection-start-column="255" selection-end-line="26" selection-end-column="255" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-            <element signature="e#1575#1576#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1956#1957#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-            <element signature="e#2090#2091#0" expanded="true" />
-            <element signature="e#2131#2132#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2224#2225#0" expanded="true" />
-            <element signature="e#2280#2281#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-            <element signature="e#2367#2368#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2587#2588#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
-            <element signature="e#2671#2672#0" expanded="true" />
-            <element signature="e#2731#2732#0" expanded="true" />
-            <element signature="e#2768#2769#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-            <element signature="e#2883#2884#0" expanded="true" />
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2963#2964#0" expanded="true" />
-            <element signature="e#3021#3022#0" expanded="true" />
-            <element signature="e#3056#3057#0" expanded="true" />
-            <element signature="e#3112#3113#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-            <element signature="e#3200#3201#0" expanded="true" />
-            <element signature="e#3239#3240#0" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3380#3381#0" expanded="true" />
-            <element signature="e#3427#3428#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="236" selection-start-line="28" selection-start-column="236" selection-end-line="28" selection-end-column="236" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="122" column="28" lean-forward="true" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
+        <state relative-caret-position="-757">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestModules/requestsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/maintainanceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-774">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1114">
+          <caret line="74" column="71" selection-start-line="74" selection-start-column="71" selection-end-line="74" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeepingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="88" column="104" selection-start-line="88" selection-start-column="104" selection-end-line="88" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+          <folding>
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1915#1916#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
           </folding>
         </state>
       </provider>
