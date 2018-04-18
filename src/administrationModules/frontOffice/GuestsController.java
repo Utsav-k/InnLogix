@@ -65,10 +65,11 @@ public class GuestsController implements Initializable {
 //    private JFXButton but_remove;
 //    @FXML
 //    private JFXButton mov;
-
+public static int countguest = 0;
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         guestTable.getItems().setAll(guestList());
+        countguest = 1;
         gNameCol.setCellValueFactory(new PropertyValueFactory<>("guestName"));
         gAddrCol.setCellValueFactory(new PropertyValueFactory<>("guestAddr"));
         gCityCol.setCellValueFactory(new PropertyValueFactory<>("guestCity"));
@@ -122,10 +123,12 @@ public class GuestsController implements Initializable {
 //    }
 
     public ObservableList<Guest> guestList() {
+if(countguest!=1){
+    guestList.add(new Guest("Mr.A","6.b st", "Delhi", "995562", "1", "12-6-18", "20-6-18", "xyz@gmail.com" ));
+    guestList.add(new Guest("Mr.B","7.b st", "Kolkata", "656221", "2", "15-6-18", "25-6-18", "xyz@gmail.com" ));
 
-        guestList.add(new Guest("Mr.A","6.b st", "Delhi", "995562", "1", "12-6-18", "20-6-18", "xyz@gmail.com" ));
-        guestList.add(new Guest("Mr.B","7.b st", "Kolkata", "656221", "2", "15-6-18", "25-6-18", "xyz@gmail.com" ));
-        return guestList;
+}
+              return guestList;
     }
 
 }

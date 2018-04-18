@@ -39,7 +39,7 @@ public class RoomsController implements Initializable {
     //Room room = new Room();
     ObservableList<Record> roomList = FXCollections.observableArrayList();
     //housekeepingController hcObj = new housekeepingController();
-
+    public static int roomDBcount = 0;
 @FXML
 private JFXButton AddGButton;
     @FXML
@@ -72,15 +72,19 @@ private JFXButton AddGButton;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        roomTable.getItems().setAll(housekeepingController.getRecord());
-        roomNumCol.setCellValueFactory(new PropertyValueFactory<>("RoomNo"));
-        roomTypeCol.setCellValueFactory(new PropertyValueFactory<>("RoomType"));
-        roomStatusCol.setCellValueFactory(new PropertyValueFactory<>("Status"));
-        roomGuestCol.setCellValueFactory(new PropertyValueFactory<>("Guest"));
-        roomAttendantCol.setCellValueFactory(new PropertyValueFactory<>("Attendant"));
-        roomRequestCol.setCellValueFactory(new PropertyValueFactory<>("Request"));
 
-        System.out.println(roomTable.getSelectionModel().getSelectedIndex());
+            roomTable.getItems().setAll(housekeepingController.getRecord());
+            housekeepingController.count=1;
+            roomNumCol.setCellValueFactory(new PropertyValueFactory<>("RoomNo"));
+            roomTypeCol.setCellValueFactory(new PropertyValueFactory<>("RoomType"));
+            roomStatusCol.setCellValueFactory(new PropertyValueFactory<>("Status"));
+            roomGuestCol.setCellValueFactory(new PropertyValueFactory<>("Guest"));
+            roomAttendantCol.setCellValueFactory(new PropertyValueFactory<>("Attendant"));
+            roomRequestCol.setCellValueFactory(new PropertyValueFactory<>("Request"));
+
+            System.out.println(roomTable.getSelectionModel().getSelectedIndex());
+
+
 
 }
 //    public void initCols() {

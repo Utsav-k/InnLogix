@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import com.jfoenix.controls.JFXCheckBox?>
 <?import com.jfoenix.controls.JFXComboBox?>
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
@@ -15,7 +14,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="377.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginController">
    <children>
       <ImageView fitHeight="394.0" fitWidth="691.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true" smooth="false">
          <image>
@@ -41,10 +40,6 @@
          <font>
             <Font size="16.0" />
          </font></JFXPasswordField>
-      <JFXCheckBox checkedColor="#1e9ab5" layoutX="346.0" layoutY="265.0" mnemonicParsing="false" text="Remember me" unCheckedColor="#1dcdc1">
-         <cursor>
-            <Cursor fx:constant="OPEN_HAND" />
-         </cursor></JFXCheckBox>
       <JFXButton fx:id="loginButton" buttonType="RAISED" cancelButton="true" defaultButton="true" layoutX="379.0" layoutY="313.0" mnemonicParsing="false" onAction="#loginButtonMethod" prefHeight="26.0" prefWidth="89.0" ripplerFill="#bf9797" style="-fx-background-color: #1dcdc1;" text="LOGIN">
          <cursor>
             <Cursor fx:constant="OPEN_HAND" />

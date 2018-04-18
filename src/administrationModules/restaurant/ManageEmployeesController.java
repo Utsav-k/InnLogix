@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import com.jfoenix.controls.JFXButton;
 import dashboard.MenusController;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -31,7 +32,8 @@ public class ManageEmployeesController implements Initializable {
 	@FXML private TextArea log;
 
 	MenusController dash = new MenusController();
-	
+	@FXML
+	JFXButton addEm = new JFXButton();
 	public static Stage window = new Stage();
 
 	public ObservableList<Employees> employees = FXCollections.observableArrayList(Platform.getAllEmployee().values());
@@ -45,6 +47,9 @@ public class ManageEmployeesController implements Initializable {
 		lastname.setCellValueFactory(new PropertyValueFactory<Employees, String>("lastName"));
 		username.setCellValueFactory(new PropertyValueFactory<Employees, String>("username"));
 		employeeType.setCellValueFactory(new PropertyValueFactory<Employees, String>("employeeType"));
+
+		addEm.setDisable(true);
+
 
 	}
 	

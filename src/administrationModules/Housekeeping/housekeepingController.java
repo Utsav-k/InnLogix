@@ -30,7 +30,7 @@ public class housekeepingController implements Initializable{
 
 
         @FXML
-        private TableView<Record> tableView;
+        public  TableView<Record> tableView;
         @FXML
         private TableColumn<Record,String> roomNo;
         @FXML
@@ -76,7 +76,8 @@ public class housekeepingController implements Initializable{
             request.setCellValueFactory(new PropertyValueFactory<>("Request"));
             //load dummy data
             //if(count!=1)
-                tableView.setItems(getRecord());
+            tableView.setItems(getRecord());
+            count=1;
 
          }
 
@@ -85,13 +86,22 @@ public class housekeepingController implements Initializable{
             if(count!=1) {
                 Record SampleGuestRecord1 = new Record("001", "Single", "Occupied", "Mr.A ", "Jerry", "Reserve a table");
                 Record SampleGuestRecord2 = new Record("002", "Single", "Dirty", "Mr.B ", "Jerry", "Call a cab");
-                Record SampleGuestRecord3 = new Record("003", "Duplex", "Available", "Mr.C", "Carl", "Housekeeping");
+                Record SampleGuestRecord3 = new Record("003", "Duplex", "Available", "", "Carl", "  ");
                 Record SampleGuestRecord4 = new Record("004", "Duplex", "Occupied", "Mr.D ", "Bob", "Tea");
+                Record SampleGuestRecord5 = new Record("005", "Single", "Available", "", "", "");
+                Record SampleGuestRecord6 = new Record("006", "Single", "Available", "", "", "");
+                Record SampleGuestRecord7 = new Record("007", "Duplex", "Available", "", "", "");
+                Record SampleGuestRecord8 = new Record("008", "Duplex", "Available", "", "", "");
 
                 guests.add(SampleGuestRecord1);
                 guests.add(SampleGuestRecord2);
                 guests.add(SampleGuestRecord3);
                 guests.add(SampleGuestRecord4);
+                guests.add(SampleGuestRecord5);
+                guests.add(SampleGuestRecord6);
+                guests.add(SampleGuestRecord7);
+                guests.add(SampleGuestRecord8);
+
             }
             /* to get  any new records that are created ie any new customers added or updated ADD FEATURE*/
 
@@ -119,14 +129,14 @@ public class housekeepingController implements Initializable{
         @FXML
         private void assignAttendantButtonMethod(ActionEvent event)
         {
-            if (roomNoText.getText()!=null) {
+            if (roomNoText.getText()!=null && roomNoText.getText().length()!=0) {
 
                     Record rec=guests.get(Integer.parseInt(roomNoText.getText())-1);
                  System.out.println(Integer.parseInt(roomNoText.getText()));
                     rec.setRequest("");System.out.println(Integer.parseInt(roomNoText.getText()));
                     rec.setAttendant(attendantText.getText());
                     guests.remove(Integer.parseInt(rec.getRoomNo())-1,Integer.parseInt(rec.getRoomNo()));
-                    guests.add(Integer.parseInt(rec.getRoomNo()),rec);
+                    guests.add(rec);
                     tableView.setItems(guests);
 
 
@@ -144,15 +154,7 @@ public class housekeepingController implements Initializable{
                 Stage stage = (Stage)this.backToDashboard.getScene().getWindow();
                 stage.close();
 
-            try {
 
-                login.LoginController object = new login.LoginController();
-                object.adminLogin();
-            }
-            catch (Exception localException)
-            {
-                localException.printStackTrace();
-            }
         }
 
 //        public void addRequest(String room,String req){

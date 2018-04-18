@@ -77,31 +77,31 @@ public class HomepageController implements Initializable {
 
 		Items.addItem("Item A", 40);
 		Items.addItem("Item B", 15);
-		Items.addItem("Item B", 65);
-		Items.addItem("Item B", 55);
-		Items.addItem("Item B", 5);
-		Items.addItem("Item B", 10);
-		Items.addItem("Item B", 50);
-		Items.addItem("Item B", 35);
-		Items.addItem("Item B", 80);
+		Items.addItem("Item C", 65);
+		Items.addItem("Item D", 55);
+		Items.addItem("Item E", 5);
+		Items.addItem("Item F", 10);
+		Items.addItem("Item G", 50);
+		Items.addItem("Item H", 35);
+		Items.addItem("Item I", 80);
 
 		for (int i = 0; i < 9; i++) {
 			Tables table = new Tables();
 			Platform.putTable(table.tableNumber, table);
 		}
 
-		Random rand = new Random();
-
-		for (int i = 0; i < 5; i++) {
-			Orders newOrder = new Orders(i+1);
-
-			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
-			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
-			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
-			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
-			Platform.putOrder(newOrder, newOrder.getOrderID());
-			Platform.getTable(newOrder.getOrderID()).orderID = newOrder.getOrderID();
-		}
+//		Random rand = new Random();
+//
+//		for (int i = 0; i < 5; i++) {
+//			Orders newOrder = new Orders(i+2);
+//
+//			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
+//			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
+//			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
+//			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
+//			Platform.putOrder(newOrder, newOrder.getOrderID());
+//			Platform.getTable(newOrder.getOrderID()).orderID = newOrder.getOrderID();
+//		}
 		
 	}
 	

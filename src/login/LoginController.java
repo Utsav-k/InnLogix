@@ -51,6 +51,7 @@ public class LoginController implements Initializable{
 
         type.getItems().add("admin");
         type.getItems().add("guest");
+
     }
 
     @FXML
@@ -74,6 +75,7 @@ public class LoginController implements Initializable{
                     case "guest": {
                         guestLogin();
                     }
+
                 }
             }
             else
