@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="713.0" prefWidth="1219.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.frontOffice.GuestsController">
+<AnchorPane id="AnchorPane" prefHeight="713.0" prefWidth="1219.0" style="-fx-background-color: #213d7a;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.frontOffice.GuestsController">
     <children>
-        <Label layoutX="19.0" layoutY="17.0" prefHeight="29.0" prefWidth="207.0" style="-fx-font-size: 20; -fx-font-weight: bold; -fx-text-fill: black;" text="Guest Database" />
+        <Label layoutX="506.0" layoutY="14.0" prefHeight="30.0" prefWidth="147.0" style="-fx-font-size: 20; -fx-font-weight: bold; -fx-text-fill: white;" text="Guest Database" wrapText="true" />
         <Separator layoutX="3.0" layoutY="55.0" prefHeight="4.0" prefWidth="1213.0" />
         <TableView fx:id="guestTable" layoutY="71.0" prefHeight="555.0" prefWidth="1219.0" style="-fx-text-fill:red" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
             <columns>
@@ -24,9 +24,9 @@
                 <TableColumn fx:id="gEnd" minWidth="0.0" prefWidth="386.0" text="End Date" />
             </columns>
         </TableView>
-      <JFXButton fx:id="removeGuest" buttonType="RAISED" layoutX="575.0" layoutY="635.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="122.0" ripplerFill="#ebd8d8" text="Remove Guest" textAlignment="CENTER" textFill="#e4cfcf" onAction="#removeGuest">
+      <JFXButton fx:id="removeGuest" buttonType="RAISED" layoutX="926.0" layoutY="645.0" mnemonicParsing="false" onAction="#removeGuest" prefHeight="52.0" prefWidth="247.0" ripplerFill="#ebd8d8" text="Remove Guest" textAlignment="CENTER" textFill="#e4cfcf">
          <font>
-            <Font size="14.0" />
+            <Font size="25.0" />
          </font>
       </JFXButton>
         <!--<JFXButton fx:id="AddGButton" layoutX="740.0" layoutY="660.0" mnemonicParsing="false" onAction="#addGuest" prefHeight="25.0" prefWidth="136.0" text="Add Guest" textFill="#d7c6c6" />-->

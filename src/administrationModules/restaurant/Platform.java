@@ -23,8 +23,6 @@ public class Platform {
 
 	public static void putOrder(Orders order, int order_id) {
 		orders.put(order_id, order);
-		
-
 		Platform.getLoggedIn().addToLog("EMPLOYEE CREATED ORDER: " + order_id);
 	}
 	
@@ -52,7 +50,6 @@ public class Platform {
 		orders.remove(orderID);
 		System.out.println("ORDER " + orderID + " REMOVED FROM STORE");
 		
-
 		Platform.getLoggedIn().addToLog("EMPLOYEE REMOVED ORDER: " + orderID);
 	}
 	

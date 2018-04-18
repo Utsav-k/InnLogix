@@ -24,7 +24,6 @@ public class Employees {
 		this.password = password;
 		this.username = username.toLowerCase();
 		employeeNumber = ++employeeCount;
-		System.out.println("EMPLOYEE CREATED" + " | TYPE: " + this.employeeType.toUpperCase() + " | " + employeeNumber );
 
 	}
 

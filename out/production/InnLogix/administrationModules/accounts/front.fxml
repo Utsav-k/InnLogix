@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="600.0" prefWidth="1000.0" styleClass="gradient" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.accounts.FrontController">
+   <children>
+      <Label layoutX="449.0" layoutY="29.0" prefHeight="42.0" prefWidth="130.0" text="Accounts" textFill="WHITE">
+         <font>
+            <Font name="Roboto Medium" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="71.0" prefHeight="51.0" prefWidth="474.0" text="meh" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Roboto Medium" size="14.0" />
+         </font>
+      </Label>
+      <HBox fx:id="boxMenus" layoutX="180.0" layoutY="200.0" prefHeight="227.0" prefWidth="669.0" spacing="20.0">
+         <children>
+            <AnchorPane fx:id="paneFrO" onMouseClicked="#openInventory" prefHeight="227.0" prefWidth="207.0" styleClass="menus">
+               <children>
+                  <Label alignment="CENTER" layoutX="77.0" layoutY="135.0" prefHeight="227.0" prefWidth="207.0" text="Inventory" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font name="Roboto Black" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="paneInv" onMouseClicked="#openRevenue" prefHeight="227.0" prefWidth="207.0" styleClass="menus">
+               <children>
+                  <Label alignment="CENTER" layoutX="77.0" layoutY="135.0" prefHeight="227.0" prefWidth="207.0" text="Revenue" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font name="Roboto Black" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="paneRes" onMouseClicked="#openWifi" prefHeight="227.0" prefWidth="207.0" styleClass="menus">
+               <children>
+                  <Label alignment="CENTER" prefHeight="227.0" prefWidth="207.0" text="WiFi" textFill="WHITE">
+                     <font>
+                        <Font name="Roboto Black" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <StackPane fx:id="fabsContainer" layoutX="903.0" layoutY="439.0" prefHeight="100.0" prefWidth="45.0" />
+   </children>
+</AnchorPane>

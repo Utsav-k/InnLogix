@@ -6,7 +6,7 @@
 
 }
 .jfx-button{
-    -fx-background-radius: 20;
+
     -fx-text-fill: black;
 }
 .jfx-text-field, .jfx-password-field, .jfx-text-area, .jfx-combobox {

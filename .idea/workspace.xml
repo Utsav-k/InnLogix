@@ -3,14 +3,52 @@
   <component name="ChangeListManager">
     <list default="true" id="cb4cc17c-376e-4563-99f3-fbb887a47533" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dashboard/Menus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard/Menus.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dashboard/MenusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dashboard/MenusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/GuestDB.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/GuestDB.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/GuestsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/GuestsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/RegisterGuest.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/RegisterGuest.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/RoomDB.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/RoomDB.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/registershow.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/frontOffice/registershow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/Homepage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/Homepage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/HomepageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/HomepageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ManageConfirmBox.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ManageConfirmBox.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ManageConfirmBoxController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ManageConfirmBoxController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ManageEmployees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ManageEmployees.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ManageOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ManageOrder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ModifyOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/ModifyOrder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/NewEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/NewEmployee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/NewMenuItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/NewMenuItem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/NewOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/administrationModules/restaurant/NewOrder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/dashboard/Menus.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/dashboard/Menus.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InnLogix/dashboard/MenusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InnLogix/dashboard/MenusController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/Homepage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/Homepage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/HomepageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/HomepageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBox.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBox.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBoxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBoxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployees.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployees.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/Messages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyConfirmBoxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyConfirmBoxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/NewMenuItem.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/NewMenuItem.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/NewOrder.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/NewOrder.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/administrationModules/restaurant/Platform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/UpdatesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/resources/eggs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/resources/eyes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/administrationModules/restaurant/resources/sausage.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/guestModules/GuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/GuestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guestModules/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guestModules/accountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/accountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guestModules/accountsPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/accountsPage.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/guestModules/guest.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/guest.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guestModules/requestsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/requestsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/guestModules/requestsPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/guestModules/requestsPage.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,169 +58,81 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="IMSFXMLDocumentController.java" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="2720">
-                    <caret line="186" selection-start-line="186" selection-end-line="186" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Guest.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Guest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="331">
-                    <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#3347#3348#0" expanded="true" />
-                      <element signature="e#3380#3381#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="Record.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/Record.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="833">
-                    <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
-                    <folding>
-                      <element signature="e#1760#1761#0" expanded="true" />
-                      <element signature="e#1794#1795#0" expanded="true" />
-                      <element signature="e#1873#1874#0" expanded="true" />
-                      <element signature="e#1915#1916#0" expanded="true" />
-                      <element signature="e#1952#1953#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GuestsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java">
+      <file leaf-file-name="AddPartInterfaceController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddPartInterfaceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1921">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoomDB.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml">
+      <file leaf-file-name="IMSFXMLDocumentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="28" column="236" selection-start-line="28" selection-start-column="236" selection-end-line="28" selection-end-column="236" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1293#1294#0" expanded="true" />
-                <element signature="e#1330#1331#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2924">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterGuestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-757">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="housekeepingController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeepingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="88" column="104" selection-start-line="88" selection-start-column="104" selection-end-line="88" selection-end-column="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1114">
-              <caret line="74" column="71" selection-start-line="74" selection-start-column="71" selection-end-line="74" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maintainanceController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/maintainanceController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-774">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requestsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/guestModules/requestsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuestDB.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="255" selection-start-line="26" selection-start-column="255" selection-end-line="26" selection-end-column="255" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file leaf-file-name="requestsPage.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/guestModules/requestsPage.fxml">
-          <provider editor-type-id="text-editor" />
+      <file leaf-file-name="housekeeping.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeeping.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="AddPartInterface.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddPartInterface.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="accountsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/guestModules/accountsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountsPage.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/guestModules/accountsPage.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="additional.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/guestModules/additional.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="bmi.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/guestModules/bmi.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="productPart.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/productPart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -197,12 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>twilio</find>
-      <find>opencsv</find>
-      <find>/appli</find>
-      <find>administrationModules/restaurant</find>
-      <find>/appl</find>
-      <find>Stage()</find>
       <find>setDis</find>
       <find>menuMan</find>
       <find>Main.get</find>
@@ -213,7 +157,7 @@
       <find>transport</find>
       <find>transpo</find>
       <find>primary</find>
-      <find />
+      <find>(/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*+/|[ \t]*//.*)</find>
       <find>JF</find>
       <find>getSc</find>
       <find>orderList2</find>
@@ -227,6 +171,12 @@
       <find>.add()</find>
       <find>exprimentOrderList</find>
       <find>roomL</find>
+      <find>register</find>
+      <find>quan</find>
+      <find>water</find>
+      <find>Straw</find>
+      <find>sortedData</find>
+      <find>filterd</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -244,63 +194,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dashboard/Tickets.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrderController.java" />
-        <option value="$PROJECT_DIR$/src/login/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/mainC.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBoxController.java" />
-        <option value="$PROJECT_DIR$/src/login/login.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Updates.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewOrder.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewMenuItem.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployee.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrder.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyConfirmBox.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrder.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployees.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBox.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/frontOffice.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/inventory/AddPartInterface.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/inventory/AddProductInterface.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/inventory/AddProductPartInterface.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/tes/modules/Overview.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/HomepageController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Homepage.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/studentfx/Main.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/studentfx/DashboardController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocument.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewOrderController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/AdmindashController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/AdminDashBoard.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/models/Admin.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/TheatreController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/models/User.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/MoviesController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/Movies.fxml" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/submenu.css" />
         <option value="$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/Guest.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuest.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java" />
-        <option value="$PROJECT_DIR$/src/dashboard/Menus.fxml" />
-        <option value="$PROJECT_DIR$/src/dashboard/MenusController.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/Housekeeping/RoomInventory.java" />
         <option value="$PROJECT_DIR$/src/guestModules/guest.fxml" />
         <option value="$PROJECT_DIR$/src/guestModules/requestsPage.fxml" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/Housekeeping/Record.java" />
-        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml" />
         <option value="$PROJECT_DIR$/src/guestModules/requestsController.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java" />
         <option value="$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeepingController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/registershow.css" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuest.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/FrontController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/InventoryController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/plotInventoryController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/Product.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/RevenueController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/WifiController.java" />
+        <option value="$PROJECT_DIR$/src/dashboard/Menus.fxml" />
+        <option value="$PROJECT_DIR$/src/dashboard/MenusController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/front.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/fxmlInventory.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/fxmlRevenue.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/fxmlWifi.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/accounts/plotInventory.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewOrder.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewMenuItem.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployee.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrder.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrder.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployees.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Homepage.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBoxController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBox.fxml" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Employees.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/HomepageController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployeesController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageMenuController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrderController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Messages.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyConfirmBoxController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrderController.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Orders.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/Platform.java" />
+        <option value="$PROJECT_DIR$/src/administrationModules/restaurant/UpdatesController.java" />
+        <option value="$PROJECT_DIR$/src/guestModules/bmi.fxml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1352" />
-    <option name="y" value="-10" />
+    <option name="x" value="-1374" />
+    <option name="y" value="-1" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -317,37 +267,6 @@
             <path>
               <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
               <item name="InnLogix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InnLogix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InnLogix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="administrationModules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InnLogix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="administrationModules" type="462c0819:PsiDirectoryNode" />
-              <item name="frontOffice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InnLogix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="administrationModules" type="462c0819:PsiDirectoryNode" />
-              <item name="Housekeeping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InnLogix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InnLogix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,7 +413,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="-1" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -502,23 +420,23 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47376788" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.027027028" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1522694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24158126" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32750398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -529,7 +447,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/administrationModules/restaurant/HomepageController.java</url>
-          <line>68</line>
+          <line>55</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -537,168 +455,344 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Employees.java">
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/InventoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="34">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Platform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="116" column="39" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/mainC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/ui/login/LoginController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/ui/login/register/RegisterController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/ui/login/admin/AdminloginController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Ticketbooking.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/ShowController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/SettingsController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/HomeController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/addmovie/AddMovieController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/alert/AlertMaker.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/AdmindashController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Rooms.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/TheatreController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/models/Admin.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/models/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/AddMovieController.java" />
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/productPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddPartInterfaceController.java">
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/plotInventoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddProductInterfaceController.java">
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/RevenueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/front.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="268" selection-start-line="8" selection-start-column="268" selection-end-line="8" selection-end-column="268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="55" column="74" selection-start-line="55" selection-start-column="74" selection-end-line="55" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/fxmlInventory.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="228" selection-start-line="12" selection-start-column="228" selection-end-line="12" selection-end-column="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/fxmlRevenue.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <caret line="7" column="314" selection-start-line="7" selection-start-column="314" selection-end-line="7" selection-end-column="314" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddProductPartInterfaceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="114" column="66" selection-start-line="114" selection-start-column="66" selection-end-line="114" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployeesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Guest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3347#3348#0" expanded="true" />
-            <element signature="e#3380#3381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/login.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-533" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/fxmlWifi.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dashboard/Menus.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="64" column="98" selection-start-line="64" selection-start-column="98" selection-end-line="64" selection-end-column="98" />
+        <state relative-caret-position="153">
+          <caret line="9" column="186" selection-start-line="9" selection-start-column="186" selection-end-line="9" selection-end-column="186" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeepingModel.java">
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/accounts/plotInventory.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dashboard/MenusController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        <state relative-caret-position="190">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Updates.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewOrder.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="32" column="143" selection-start-line="32" selection-start-column="143" selection-end-line="32" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewMenuItem.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="25" column="185" selection-start-line="25" selection-start-column="185" selection-end-line="25" selection-end-column="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployee.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" column="171" selection-start-line="43" selection-start-column="171" selection-end-line="43" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrder.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="49" column="179" selection-start-line="49" selection-start-column="179" selection-end-line="49" selection-end-column="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ModifyConfirmBox.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Homepage.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="148" selection-start-line="12" selection-start-column="148" selection-end-line="12" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployees.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Employees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/HomepageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="120" column="8" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+          <folding>
+            <element signature="e#1384#1392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ItemObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBox.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageConfirmBoxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageEmployeesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrder.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ManageOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1666">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ModifyConfirmBoxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/ModifyOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewEmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/NewOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1051">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Platform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding>
+            <element signature="e#312#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/SceneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/UpdatesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Tables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/restaurant/Variables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddPartInterfaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1921">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/IMSFXMLDocumentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2924">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/productPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeeping.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/administrationModules/inventory/AddPartInterface.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/guestModules/accountsController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -707,130 +801,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603">
-          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guestModules/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/RoomInventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guestModules/guest.fxml">
-      <provider editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/guestModules/accountsPage.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guestModules/requestsPage.fxml">
       <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/guestModules/additional.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestDB.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="255" selection-start-line="26" selection-start-column="255" selection-end-line="26" selection-end-column="255" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomDB.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" column="236" selection-start-line="28" selection-start-column="236" selection-end-line="28" selection-end-column="236" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/GuestsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RegisterGuestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-757">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/guestModules/requestsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/maintainanceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-774">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/frontOffice/RoomsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1114">
-          <caret line="74" column="71" selection-start-line="74" selection-start-column="71" selection-end-line="74" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/housekeepingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="88" column="104" selection-start-line="88" selection-start-column="104" selection-end-line="88" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/administrationModules/Housekeeping/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
-          <folding>
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/guestModules/bmi.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

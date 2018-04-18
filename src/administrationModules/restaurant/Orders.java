@@ -17,16 +17,9 @@ public class Orders {
 	private int orderTotal;
 	private int orderTotalObjects;
 	
-
-
 	private HashMap<String, Integer> orderContents = new HashMap<String, Integer>();
-	
-
 	private ArrayList<ItemObject> orderItemObjects = new ArrayList<ItemObject>();
 	
-
-
-
 	public Orders(int tableNumber) {
 		
 		this.orderID = ++orderCount;
@@ -35,11 +28,7 @@ public class Orders {
 		System.out.println("ORDER " + orderID + " CREATED");
 		}
 	
-
-	
-
-
-	public void addItemBuffer(ItemObject item) {
+		public void addItemBuffer(ItemObject item) {
 		orderItemObjects.add(item);
 
 		itemsOrderedString();
@@ -75,9 +64,6 @@ public class Orders {
 		return orderTotalObjects;
 	}
 	
-
-	
-
 	public void addOrderItem(String item, int quantity) {
 
 		if (this.orderContents.containsKey(item) == true) {
@@ -99,10 +85,6 @@ public class Orders {
 		}
 	}
 
-
-
-
-
 	public void displayOrder() {
 		System.out.println("---------------------------");
 		for (Map.Entry<String, Integer> entry : this.orderContents.entrySet()) {
@@ -117,7 +99,6 @@ public class Orders {
 		System.out.println("---------------------------");
 	}
 	
-
 	public String orderDetails() {
 		
 		String details = "RESTAURANT MANAGER \n";

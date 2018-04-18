@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="482.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestModules.AdditionalController">
+   <children>
+      <AnchorPane layoutX="92.0" layoutY="159.0" prefHeight="482.0" prefWidth="220.0" style="-fx-background-color: #E0F2F2;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="580.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane layoutX="220.0" layoutY="116.0" prefHeight="482.0" prefWidth="580.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="163.0" layoutY="23.0" prefHeight="71.0" prefWidth="246.0" text="Additional Services">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.4182692307692307" startY="0.3798076923076924">
+                     <stops>
+                        <Stop color="#e4d5d5" />
+                        <Stop color="#8b6fa8" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
+            <JFXButton fx:id="bmi" buttonType="RAISED" layoutX="40.0" layoutY="204.0" mnemonicParsing="false" onAction="#handleBmiButton" prefHeight="71.0" prefWidth="123.0" style="-fx-background-color: #5683D2;" text="BMI Index" textFill="#eaeaee">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="review" buttonType="RAISED" layoutX="229.0" layoutY="204.0" mnemonicParsing="false" onAction="#handleReviewButton" prefHeight="71.0" prefWidth="123.0" style="-fx-background-color: #5683D2;" text="Review" textFill="#efeff8">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="back" buttonType="RAISED" layoutX="409.0" layoutY="206.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="71.0" prefWidth="123.0" style="-fx-background-color: #5683D2;" text="Back" textFill="#f7f7f8">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

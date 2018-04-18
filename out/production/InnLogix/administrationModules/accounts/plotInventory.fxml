@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="493.0" prefWidth="824.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.accounts.plotInventoryController">
+   <children>
+      <AnchorPane layoutX="168.0" layoutY="52.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane layoutY="100.0" prefHeight="493.0" prefWidth="196.0" style="-fx-background-color: #161616 #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="628.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Separator layoutX="2.0" layoutY="341.0" prefHeight="3.0" prefWidth="181.0" />
+                  <Label layoutX="14.0" layoutY="302.0" prefHeight="28.0" prefWidth="100.0" text="Information" textFill="#ddd3d3">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="-3.0" layoutY="431.0" prefHeight="3.0" prefWidth="190.0" />
+                  <TextField fx:id="productID" layoutX="14.0" layoutY="384.0" prefHeight="26.0" prefWidth="162.0" />
+                  <Label layoutX="14.0" layoutY="359.0" text="Product ID" textFill="#e8dede" />
+                  <JFXButton layoutX="14.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleOKButtonAction" prefHeight="29.0" prefWidth="68.0" text="OK" textFill="#0e54d7">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="95.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleBackButtonAction" prefHeight="26.0" prefWidth="68.0" text="Back" textFill="#0219e8">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+               </children></AnchorPane>
+            <AnchorPane layoutX="196.0" layoutY="50.0" prefHeight="493.0" prefWidth="628.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="196.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <BarChart fx:id="CostChart" layoutY="14.0" prefHeight="493.0" prefWidth="628.0" style="-fx-background-color: #9DC5F0;" title="Quantity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <xAxis>
+                      <CategoryAxis label="Month" side="BOTTOM" fx:id="x" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis fx:id="y" label="No of Product" side="LEFT" />
+                    </yAxis>
+                  </BarChart>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

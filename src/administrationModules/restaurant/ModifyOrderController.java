@@ -42,87 +42,50 @@ public class ModifyOrderController implements Initializable {
 	
 	public HashMap<String, Integer> orderList2 = new HashMap<String, Integer>();
 	
-
 	public ObservableList<ItemObject> itemList = FXCollections.observableArrayList(Platform.getOrder(orderID).orderItemObjects());
 	
-
 	public ArrayList<ItemObject> exprimentOrderList = ordermate.orderItemObjects();
-	
 
 	ObservableList<String> dropdownList = FXCollections.observableArrayList(Items.items.keySet());
-	
-
-	
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		
 
 		lblOrderNumber.setText("Order " + orderID);
 		lblOrderNumber.setVisible(true);
-		
-
 		lblTotal.setText("£" + ordermate.getOrderTotalObjects() + ".00" );
-		
-
 		tvItemTable.setItems(itemList);
-		
-
 		item.setCellValueFactory(new PropertyValueFactory<ItemObject, String>("name"));
 		price.setCellValueFactory(new PropertyValueFactory<ItemObject, Integer>("price"));
 		quantity.setCellValueFactory(new PropertyValueFactory<ItemObject, String>("quantity"));
 		
-
 		txtComments.setText(Platform.getOrder(orderID).getComments());
-		
 
 		cbItems.setItems(dropdownList);
 		txtQuantity.setText("1");
 		txtQuantity.setDisable(true);
 		cbItems.getSelectionModel().selectFirst();
-		
 
 	}
 	
 
 	public void deleteItem(ActionEvent event) {
 		
-
 		Orders order = Platform.getOrder(orderID);
-		
-
 		ObservableList<ItemObject> allItems;
-				
-
 		ItemObject itemSelected;
-				
-
 		allItems = tvItemTable.getItems();
-				
-
 		itemSelected = tvItemTable.getSelectionModel().getSelectedItem();
-				
-
 		allItems.remove(itemSelected);
-		
-		
-
-		
-
 		order.removeItemBuffer(itemSelected);
-		
-
 		lblTotal.setText("£" + order.getOrderTotalObjects() + ".00" );
 	}
 	
 	
 
 	public void Home(ActionEvent event) throws IOException {
-		
 
 		Platform.getOrder(orderID).addComments(txtComments.getText());
-		
-
 		Platform.getScene().home();
 	
 	}
@@ -131,7 +94,6 @@ public class ModifyOrderController implements Initializable {
 	public void deleteConformation(ActionEvent event) throws IOException {
 		
 		Variables.setOrderSelected(ordermate);
-
 		window = new Stage();
 		window.initModality(Modality.APPLICATION_MODAL);
 		Parent root = FXMLLoader.load(getClass().getResource("/administrationModules/restaurant/ModifyConfirmBox.fxml"));
@@ -150,29 +112,17 @@ public class ModifyOrderController implements Initializable {
 
 	public void addItem(ActionEvent event) {
 		
-
 		String text = cbItems.getSelectionModel().getSelectedItem();
 		int quantity2 = Integer.parseInt(txtQuantity.getText());
-				
-		
 		if (orderList2.containsKey(text)) {
 			orderList2.put(text, orderList2.get(text) + quantity2);
 		}
-		
 		else {
 			orderList2.put(text, quantity2);
 		}
-		
-
 		ItemObject item = new ItemObject(text, Items.getItemPrice(text), quantity2+"");
-
-
 		exprimentOrderList.add(item);
-
-
 		lblTotal.setText("£" + ordermate.getOrderTotalObjects() + ".00");
-	
-
 		tvItemTable.getItems().add(item);
 		
 	}

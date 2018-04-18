@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="476.0" prefWidth="750.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administrationModules.accounts.InventoryController">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="509.0" prefWidth="832.0">
+            <children>
+                <AnchorPane prefHeight="476.0" prefWidth="202.0" style="-fx-background-color: #454444;">
+               <children>
+                  <JFXButton layoutX="33.0" layoutY="405.0" mnemonicParsing="false" onAction="#generatePlot" prefHeight="51.0" prefWidth="137.0" text="Generate Plot" textFill="#7b9ad3">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children></AnchorPane>
+                <AnchorPane layoutX="200.0" layoutY="49.0" prefHeight="351.0" prefWidth="551.0" style="-fx-background-color: #F69595;">
+                    <children>
+                        <TableView fx:id="tableView" layoutX="36.0" layoutY="2.0" prefHeight="424.0" prefWidth="551.0" AnchorPane.bottomAnchor="-75.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+                            <columns>
+                                <TableColumn fx:id="idColumn" prefWidth="138.0" text="ID" />
+                                <TableColumn fx:id="monthColumn" prefWidth="129.0" text="Month" />
+                                <TableColumn fx:id="priceColumn" prefWidth="143.0" text="Price" />
+                        <TableColumn fx:id="quantityColumn" prefWidth="140.0" text="Quantity" />
+                            </columns>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+            <AnchorPane layoutX="200.0" prefHeight="51.0" prefWidth="551.0" style="-fx-background-color: #5FB5E7;">
+               <children>
+                  <Label layoutX="210.0" layoutY="5.0" prefHeight="41.0" prefWidth="94.0" text="Products">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <JFXButton layoutX="446.0" layoutY="13.0" mnemonicParsing="false" onAction="#changeScene" prefHeight="26.0" prefWidth="74.0" text="Back" />
+               </children>
+            </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</GridPane>

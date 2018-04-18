@@ -1,34 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Reflection?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #c1eaf2;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestModules.GuestController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="732.0" style="-fx-background-color: #070719;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestModules.GuestController">
    <children>
-      <Label alignment="CENTER" layoutX="160.0" layoutY="32.0" text="Dear Guest, Welcome to InnLogix" textAlignment="CENTER" wrapText="true">
+      <Label alignment="CENTER" layoutX="154.0" layoutY="66.0" prefHeight="53.0" prefWidth="422.0" text="Dear Guest, Welcome to InnLogix" textAlignment="CENTER" textFill="#e1dfdf" wrapText="true">
          <font>
-            <Font name="Microsoft Sans Serif" size="20.0" />
+            <Font name="System Bold" size="20.0" />
          </font>
          <effect>
             <Glow level="0.24" />
          </effect>
       </Label>
-      <JFXButton fx:id="requestButton" buttonType="RAISED" defaultButton="true" layoutX="68.0" layoutY="139.0" mnemonicParsing="false" onAction="#requestsButtonMethod" prefHeight="129.0" prefWidth="129.0" ripplerFill="#d3b6b6" style="-fx-background-color: #a47272;" text="Requests to the Front Office" textAlignment="CENTER" wrapText="true">
+      <JFXButton fx:id="requestButton" buttonType="RAISED" centerShape="false" defaultButton="true" layoutX="122.0" layoutY="216.0" mnemonicParsing="false" onAction="#requestsButtonMethod" opacity="0.9" prefHeight="65.0" prefWidth="136.0" style="-fx-background-color: #04B4AE;" text="Requests" textAlignment="CENTER" textFill="#cdcdd7" wrapText="true">
          <font>
-            <Font name="Microsoft Sans Serif" size="18.0" />
+            <Font name="System Bold" size="16.0" />
          </font>
+         <ripplerFill>
+            <LinearGradient endX="0.9567307692307693" endY="1.0" startX="0.9567307692307692" startY="0.10096153846153846">
+               <stops>
+                  <Stop color="#26155e" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </ripplerFill>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting bumpInput="$null">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
       </JFXButton>
-      <JFXButton fx:id="accountsButton" buttonType="RAISED" layoutX="236.0" layoutY="136.0" mnemonicParsing="false" onAction="#checkAccountsButtonMethod" prefHeight="129.0" prefWidth="129.0" ripplerFill="#d3b6b6" style="-fx-background-color: #a47272;" text="Check your Transactions" textAlignment="CENTER" wrapText="true">
+      <JFXButton fx:id="accountsButton" buttonType="RAISED" layoutX="297.0" layoutY="217.0" mnemonicParsing="false" onAction="#checkAccountsButtonMethod" opacity="0.84" prefHeight="65.0" prefWidth="136.0" ripplerFill="#d3b6b6" style="-fx-background-color: #04B4AE;" text="Transactions" textAlignment="CENTER" textFill="#dedee4" wrapText="true">
          <font>
-            <Font name="Microsoft Sans Serif" size="18.0" />
+            <Font name="System Bold" size="15.0" />
          </font>
+         <effect>
+            <InnerShadow />
+         </effect>
       </JFXButton>
-      <JFXButton fx:id="exitButton" buttonType="RAISED" layoutX="419.0" layoutY="136.0" mnemonicParsing="false" onAction="#exitButtonMethod" prefHeight="129.0" prefWidth="129.0" ripplerFill="#e4c6c6" style="-fx-background-color: #a47254;" text="Back to Login Page" textAlignment="CENTER" wrapText="true">
+      <JFXButton fx:id="exitButton" buttonType="RAISED" layoutX="473.0" layoutY="218.0" mnemonicParsing="false" onAction="#exitButtonMethod" opacity="0.85" prefHeight="65.0" prefWidth="136.0" ripplerFill="#e4c6c6" style="-fx-background-color: #04B4AE;" text="Login" textAlignment="CENTER" textFill="#e5e3eb" textOverrun="WORD_ELLIPSIS" wrapText="true">
          <font>
-            <Font name="Microsoft Sans Serif" size="18.0" />
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="additional" layoutX="274.0" layoutY="341.0" mnemonicParsing="false" onAction="#openAdditional" prefHeight="65.0" prefWidth="185.0" text="Additional Services" textFill="#fceeee">
+         <font>
+            <Font name="System Bold" size="15.0" />
          </font>
       </JFXButton>
    </children>

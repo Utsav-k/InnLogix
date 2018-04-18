@@ -20,9 +20,6 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-
-
-
 public class HomepageController implements Initializable {
 
 
@@ -42,36 +39,19 @@ public class HomepageController implements Initializable {
 	@FXML
 	AnchorPane newOrder;
 
-
-	
 	@FXML private Button menuManager = new Button();
 	@FXML private Button staffManager = new Button();
 	@FXML public AnchorPane test;
 	
 
 	public ArrayList<Button> allButtons = new ArrayList<Button>();
-	
-	
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 
-
-		lblPlatformTotal.setText("£" + Platform.getTotal() + ".00");
-		
-
+		lblPlatformTotal.setText("INR: " + Platform.getTotal() + ".00");
 		addButtons();
-		
-
 		setButtonColour(allButtons);
-		
-
-
-
-
-
-		
-
 		
 		for (Button button : allButtons) {
 			button.hoverProperty().addListener( (e) -> {
@@ -82,12 +62,12 @@ public class HomepageController implements Initializable {
 			});
 		}
 
-		Employees test = new Employees("Manager", "Derek", "Jones", "derek", "password");
+		Employees test = new Employees("Manager", "Mr. A", "a", "a7", "password");
 		Platform.setLoggedIn(test);
-		Employees manager = new Employees("Staff", "Derek", "Jones", "barry", "password");
-		Employees staff = new Employees("Staff", "Barry", "Flynn", "Barry", "password");
-		Employees jake = new Employees("Staff", "Jake", "Bowers", "Jake", "password");
-		Employees albert = new Employees("Staff", "Albert", "Devon", "Albert", "password");
+		Employees manager = new Employees("Staff", "Mr. B", "b", "b1", "password");
+		Employees staff = new Employees("Staff", "Mr. C", "c", "c2", "password");
+		Employees jake = new Employees("Staff", "Mr. D", "d", "d3", "password");
+		Employees albert = new Employees("Staff", "Mr. E", "e", "e4", "password");
 
 		Platform.putEmployee(manager, manager.getUsername());
 		Platform.putEmployee(staff, staff.getUsername());
@@ -95,36 +75,25 @@ public class HomepageController implements Initializable {
 		Platform.putEmployee(jake, jake.getUsername());
 		Platform.putEmployee(albert, albert.getUsername());
 
-
-
-
-		Items.addItem("Salmon with Popped Cabbage", 20);
-		Items.addItem("Chicken a la Creme", 15);
-		Items.addItem("King Prawn Salad", 11);
-		Items.addItem("Slow Roasted Beef Brisket", 11);
-		Items.addItem("Water", 3);
-		Items.addItem("Wine", 7);
-		Items.addItem("Lobster", 50);
-		Items.addItem("Strawberry Cheescake", 13);
-		Items.addItem("Chocolate Milkshake", 8);
-
-
-
+		Items.addItem("Item A", 40);
+		Items.addItem("Item B", 15);
+		Items.addItem("Item B", 65);
+		Items.addItem("Item B", 55);
+		Items.addItem("Item B", 5);
+		Items.addItem("Item B", 10);
+		Items.addItem("Item B", 50);
+		Items.addItem("Item B", 35);
+		Items.addItem("Item B", 80);
 
 		for (int i = 0; i < 9; i++) {
 			Tables table = new Tables();
 			Platform.putTable(table.tableNumber, table);
 		}
 
-
-
 		Random rand = new Random();
 
 		for (int i = 0; i < 5; i++) {
-
-
 			Orders newOrder = new Orders(i+1);
-
 
 			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
 			newOrder.addItemBuffer(Items.itemObjects.get(Items.itemObjects.keySet().toArray()[rand.nextInt(8)]));
@@ -136,9 +105,6 @@ public class HomepageController implements Initializable {
 		
 	}
 	
-
-
-
 	public void setButtonColour(ArrayList<Button> allButtons) {
 		
 		Collection<Tables> allTables = Platform.getAllTables().values();
@@ -152,7 +118,6 @@ public class HomepageController implements Initializable {
 			}
 		}
 		
-
 		for (Button button : allButtons ) {
 			if ( !availableTables.contains(Integer.parseInt(button.getText()))) {
 				button.setStyle("-fx-color: #F06767;}");

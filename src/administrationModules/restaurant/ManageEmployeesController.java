@@ -33,18 +33,13 @@ public class ManageEmployeesController implements Initializable {
 	MenusController dash = new MenusController();
 	
 	public static Stage window = new Stage();
-	
 
 	public ObservableList<Employees> employees = FXCollections.observableArrayList(Platform.getAllEmployee().values());
 
-	
-
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		
 
 		tvEmployeeTable.setItems(employees);
-		
 		id.setCellValueFactory(new PropertyValueFactory<Employees, Integer>("employeeNumber"));
 		firstname.setCellValueFactory(new PropertyValueFactory<Employees, String>("firstName"));
 		lastname.setCellValueFactory(new PropertyValueFactory<Employees, String>("lastName"));
@@ -54,43 +49,29 @@ public class ManageEmployeesController implements Initializable {
 	}
 	
 
-	public void deleteEmployee(ActionEvent event) {
+	public void deleteEmployee(ActionEvent event)
+	{
 		
-
 		ObservableList<Employees> allEmployees;
-		
-
 		Employees employeeSelected;
-		
-
 		allEmployees = tvEmployeeTable.getItems();
-		
-
 		employeeSelected = tvEmployeeTable.getSelectionModel().getSelectedItem();
-		
-
 		allEmployees.remove(employeeSelected);
-		
-
-		
-
-
 		Platform.removeEmployee(employeeSelected.getUsername());
 		
 	}
 	
 
-	public void Home(ActionEvent event) throws IOException {
+	public void Home(ActionEvent event) throws IOException
+	{
 		
-
 		Platform.getScene().home();
 		
 	}
 	
 
-	public void goToNewEmployeePage(ActionEvent event) throws IOException {
-		
-
+	public void goToNewEmployeePage(ActionEvent event) throws IOException
+	{
 		Parent root = FXMLLoader.load(getClass().getResource("/administrationModules/restaurant/NewEmployee.fxml"));
 		Scene scene = new Scene(root, 900, 500);
 		scene.getStylesheets().add(getClass().getResource("resStyle.css").toExternalForm());
@@ -101,14 +82,9 @@ public class ManageEmployeesController implements Initializable {
 	
 
 	public void showLog(ActionEvent event) {
-				
 
 		Employees employeeSelected;
-		
-
 		employeeSelected = tvEmployeeTable.getSelectionModel().getSelectedItem();
-		
-
 		log.setText(employeeSelected.getLog());
 		
 	}

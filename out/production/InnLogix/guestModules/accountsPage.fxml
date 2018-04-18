@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="350.0" prefWidth="357.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestModules.accountsController">
+<AnchorPane prefHeight="444.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="guestModules.accountsController">
    <children>
-      <Label layoutX="92.0" layoutY="23.0" prefHeight="34.0" prefWidth="181.0" text="TRANSACTIONS" textAlignment="CENTER">
+      <Label layoutX="217.0" layoutY="3.0" prefHeight="43.0" prefWidth="181.0" text="TRANSACTIONS" textAlignment="CENTER">
          <font>
             <Font name="Microsoft Sans Serif" size="18.0" />
          </font>
@@ -18,16 +18,24 @@
             <Insets left="20.0" />
          </padding>
       </Label>
-      <TableView fx:id="tableViewAccount" layoutX="-2.0" layoutY="66.0" prefHeight="256.0" prefWidth="357.0" AnchorPane.bottomAnchor="28.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="66.0">
+      <TableView fx:id="tableViewAccount" layoutX="-2.0" layoutY="50.0" prefHeight="403.0" prefWidth="602.0" style="-fx-background-color: #E0E6F8;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
         <columns>
-          <TableColumn fx:id="particulars" prefWidth="223.0" text="PARTICULARS" />
-          <TableColumn fx:id="amount" prefWidth="133.0" text="AMOUNT" />
+          <TableColumn fx:id="particulars" prefWidth="300.0" text="PARTICULARS" />
+          <TableColumn fx:id="amount" prefWidth="301.0" text="AMOUNT" />
         </columns>
       </TableView>
-      <JFXButton fx:id="backButton" buttonType="RAISED" layoutX="153.0" layoutY="322.0" mnemonicParsing="false" onAction="#backButtonMethod" text="BACK">
-         <font>
-            <Font name="Microsoft Sans Serif" size="14.0" />
-         </font>
-      </JFXButton>
+      <AnchorPane layoutX="45.0" layoutY="-75.0" prefHeight="43.0" prefWidth="602.0" style="-fx-background-color: #A9E2F3;" AnchorPane.bottomAnchor="411.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="234.0" layoutY="4.0" prefHeight="43.0" prefWidth="170.0" text="Transactions">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="backButton" buttonType="RAISED" layoutX="529.0" layoutY="12.0" mnemonicParsing="false" onAction="#backButtonMethod" prefHeight="26.0" prefWidth="59.0" text="Back">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children></AnchorPane>
    </children>
 </AnchorPane>

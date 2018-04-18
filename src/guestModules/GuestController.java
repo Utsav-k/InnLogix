@@ -9,6 +9,7 @@ import com.jfoenix.controls.JFXButton;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
@@ -72,6 +73,16 @@ public class GuestController implements Initializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    @FXML
+    public void openAdditional(javafx.event.ActionEvent event) throws IOException{
+        Parent next_page_parent = FXMLLoader.load(getClass().getResource("additional.fxml"));
+        Scene next_page_scene = new Scene(next_page_parent);
+        Stage next_stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        next_stage.setScene(next_page_scene);
+        next_stage.show();
+
     }
 
 }
